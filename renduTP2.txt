@@ -1,0 +1,131 @@
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git config --global user.name "mhdndy"
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git config --global user.email "mohamedndy97@gmail.com"
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git config -l
+user.name=mhdndy
+user.email=mohamedndy97@gmail.com
+core.editor=code --wait
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/mhdndy/projet1
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git push -u origin main
+Username for 'https://github.com': mhdndy
+Password for 'https://mhdndy@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Échec d'authentification pour 'https://github.com/mhdndy/projet1/'
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git push -u origin main
+Username for 'https://github.com': mhdndy
+Password for 'https://mhdndy@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Échec d'authentification pour 'https://github.com/mhdndy/projet1/'
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git remote add origin https://github.com/mhdndy/projet1
+fatal: la distante origin existe déjà.
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git push -u origin main
+Username for 'https://github.com': mhdndy
+Password for 'https://mhdndy@github.com': 
+To https://github.com/mhdndy/projet1
+ ! [rejected]        main -> main (fetch first)
+error: impossible de pousser des références vers 'https://github.com/mhdndy/projet1'
+astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git status 
+Sur la branche main
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	modifié :         index.html
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git add index.html 
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git commit -m "updated fic html"
+[main cec8541] updated fic html
+ 1 file changed, 1 insertion(+)
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git push -u origin main
+Username for 'https://github.com': mhdndy
+Password for 'https://mhdndy@github.com': 
+To https://github.com/mhdndy/projet1
+ ! [rejected]        main -> main (fetch first)
+error: impossible de pousser des références vers 'https://github.com/mhdndy/projet1'
+astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git status
+Sur la branche main
+rien à valider, la copie de travail est propre
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git pull
+warning: pas de commit commun
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (3/3), 589 octets | 589.00 Kio/s, fait.
+Depuis https://github.com/mhdndy/projet1
+ * [nouvelle branche] main       -> origin/main
+Pas d'information de suivi distant pour la branche actuelle.
+Veuillez spécifier une branche avec laquelle fusionner.
+Référez-vous à git-pull(1) pour de plus amples détails.
+
+    git pull <distant> <branche>
+
+Si vous souhaitez indiquer l'information de suivi distant pour cette branche, vous pouvez le faire avec :
+
+    git branch --set-upstream-to=origin/<branche> main
+
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git pull origin main 
+Depuis https://github.com/mhdndy/projet1
+ * branch            main       -> FETCH_HEAD
+fatal: refus de fusionner des historiques sans relation
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git push -u origin main
+Username for 'https://github.com': mhdndy
+Password for 'https://mhdndy@github.com': 
+To https://github.com/mhdndy/projet1
+ ! [rejected]        main -> main (non-fast-forward)
+error: impossible de pousser des références vers 'https://github.com/mhdndy/projet1'
+astuce: Les mises à jour ont été rejetées car la pointe de la branche courante est derrière
+astuce: son homologue distant. Intégrez les changements distants (par exemple 'git pull ...')
+astuce: avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git pull
+Pas d'information de suivi distant pour la branche actuelle.
+Veuillez spécifier une branche avec laquelle fusionner.
+Référez-vous à git-pull(1) pour de plus amples détails.
+
+    git pull <distant> <branche>
+
+Si vous souhaitez indiquer l'information de suivi distant pour cette branche, vous pouvez le faire avec :
+
+    git branch --set-upstream-to=origin/<branche> main
+
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$ git log
+commit cec8541991b87e730b6bb245d25bc8ca2bdedf1e (HEAD -> main)
+Author: mhdndy <mohamedndy97@gmail.com>
+Date:   Thu Oct 12 16:50:31 2023 +0200
+
+    updated fic html
+
+commit 0e2c3a01403fd0164c0806c0d4af826252c61e3c
+Author: mohamed ndiaye <mohamedndy97@gmail.com>
+Date:   Thu Oct 12 15:54:16 2023 +0200
+
+    ajout des fic hmtl et css
+(base) mhdndy@mhdndy-desktop:~/Bureau/IA_M1/M1_S1_Git/PremierProjet$
